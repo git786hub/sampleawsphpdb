@@ -12,7 +12,7 @@
     use Aws\DynamoDb\DynamoDbClient;
 
     $client = DynamoDbClient::factory(array(
-        'region' => 'us-east-1',  // replace with your desired region
+        'region' => 'eu-east-1',  // replace with your desired region
         'version' => '2012-08-10' // Now needs a version
     ));
 
@@ -34,7 +34,7 @@
                 array(
                     'PutRequest' => array(
                         'Item' => array(
-                            'Id'              => array('N' => '1101'),
+                            'Id'              => array('N' => '9999'),
                             'Title'           => array('S' => 'Book 101 Title'),
                             'ISBN'            => array('S' => '111-1111111111'),
                             'Authors'         => array('SS' => array('Author1')),
