@@ -1,0 +1,1 @@
+sudo yum update -y && sudo yum install httpd php git -y && sudo service httpd start && sudo chkconfig httpd on  &&  sudo chown -R ec2-user:ec2-user /var &&  cd /var/www/html   && sudo git clone https://github.com/git786hub/sampleawsphpdb.git && curl -sS https://getcomposer.org/installer | php &&  php  composer.phar require aws/aws-sdk-php
