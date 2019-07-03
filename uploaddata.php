@@ -34,7 +34,7 @@
                 array(
                     'PutRequest' => array(
                         'Item' => array(
-                            'Id'              => array('N' => '9999'),
+                            'Id'              => array('N' => '22225555'),
                             'Title'           => array('S' => 'Book 101 Title'),
                             'ISBN'            => array('S' => '111-1111111111'),
                             'Authors'         => array('SS' => array('Author1')),
