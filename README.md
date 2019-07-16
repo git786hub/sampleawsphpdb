@@ -27,3 +27,6 @@ Copyright (c) 1997-2018 The PHP Group
 Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
 
 .
+sudo yum update -y && sudo yum install epel-release yum-utils -y && sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm && sudo yum install httpd git -y && sudo yum-config-manager --enable remi-php72 && sudo yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysql -y && sudo yum install php-simplexml && sudo service httpd start && sudo chkconfig httpd on && cd /var/www/html && 
+sudo git clone https://github.com/GCTheja/sampleawsphpdb.git && 
+cd sampleawsphpdb && sudo cp be.sh /var/www/html && cd /var/www/html && sudo ./be.sh
